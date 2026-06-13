@@ -1,0 +1,30 @@
+# Cabal build output
+dist-newstyle/
+dist/
+
+# GHC build artifacts, useful if compiling files manually with ghc
+*.hi
+*.o
+*.dyn_hi
+*.dyn_o
+
+# Profiling / coverage artifacts
+*.prof
+*.hp
+*.eventlog
+*.tix
+.hpc/
+
+# Cabal local/user-specific config
+cabal.project.local
+cabal.project.local~
+.ghc.environment.*
+
+# Stack, if used later
+.stack-work/
+
+# Editor / OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
